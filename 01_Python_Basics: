@@ -1,0 +1,194 @@
+# Python Variables
+
+## 1. What is a Variable?
+
+A variable is a name used to store data in a program.
+
+Python variables are created when a value is assigned to them.
+
+Example:
+
+```python
+name = "Ramya"
+age = 20
+marks = 85.5
+
+print(name)
+print(age)
+print(marks)
+```
+
+Output:
+```text
+Ramya
+20
+85.5
+```
+
+## 2. Rules for Naming Variables
+
+1. A variable name must start with a letter or underscore.
+2. It cannot start with a number.
+3. Variable names can contain letters, numbers and underscores.
+4. Spaces are not allowed.
+5. Python keywords cannot be used as variable names.
+6. Variable names are case-sensitive.
+
+Valid variable names:
+
+```python
+name = "Ramya"
+age = 20
+student_marks = 90
+_total = 500
+```
+
+Invalid variable names:
+
+```python
+2name = "Ramya"
+student name = "Ramya"
+class = 10
+```
+
+## 3. Multiple Variable Assignment
+
+Python allows assigning values to multiple variables in one statement.
+
+Example:
+
+```python
+a, b, c = 10, 20, 30
+
+print(a)
+print(b)
+print(c)
+```
+
+Output:
+```text
+10
+20
+30
+```
+
+## 4. Assigning the Same Value
+
+The same value can be assigned to multiple variables.
+
+Example:
+
+```python
+x = y = z = 100
+
+print(x, y, z)
+```
+
+Output:
+```text
+100 100 100
+```
+
+## 5. Changing Variable Values
+
+Variable values can be changed during program execution.
+
+Example:
+
+```python
+age = 19
+age = 20
+
+print(age)
+```
+
+Output:
+```text
+20
+```
+
+## 6. Dynamic Typing
+
+Python is dynamically typed. This means a variable can refer to values of different data types during execution.
+
+Example:
+
+```python
+x = 100
+print(x)
+
+x = "Python"
+print(x)
+```
+
+Output:
+```text
+100
+Python
+```
+
+## 7. Checking Variable Data Types
+
+The `type()` function is used to identify the data type of a variable.
+
+Example:
+
+```python
+name = "Python"
+age = 20
+price = 99.5
+
+print(type(name))
+print(type(age))
+print(type(price))
+```
+
+Output:
+```text
+<class 'str'>
+<class 'int'>
+<class 'float'>
+```
+
+## 8. Deleting Variables
+
+The `del` keyword is used to delete a variable.
+
+Example:
+
+```python
+x = 50
+del x
+```
+
+After deletion, accessing `x` will produce a NameError.
+
+## 9. Important Interview Questions
+
+**Q1. What is a variable in Python?**
+
+A variable is a named reference used to store or access data.
+
+**Q2. Is Python statically typed or dynamically typed?**
+
+Python is dynamically typed.
+
+**Q3. Can a variable change its data type?**
+
+Yes. A variable can refer to values of different data types.
+
+**Q4. What is the purpose of the type() function?**
+
+It identifies the type of an object.
+
+**Q5. What is the purpose of the del keyword?**
+
+It deletes a variable reference.
+
+**Q6. Is Python case-sensitive?**
+
+Yes. For example, `name` and `Name` are different variables.
+
+## Conclusion
+
+Variables are fundamental building blocks of Python programming. They allow programs to store, access and manipulate data.
